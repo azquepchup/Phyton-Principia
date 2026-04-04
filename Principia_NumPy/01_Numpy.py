@@ -68,6 +68,40 @@ lista_Numeros = [[2, 3, 4],
 arr_numeros = np.array(lista_Numeros)
 print(arr_numeros)
 
-print(arr_numeros.shape) #* Tamaño de mi arreglo (Matriz_mxn) (Columnas, Renglones)
+print(arr_numeros.shape) #* Tamaño de mi arreglo (Matriz_mxn) (Renglones, Columnas)
 
-print(arr_numeros.ndim)
+print(arr_numeros.ndim) #! No son como las dimensiones normales en A.L
+
+print(sep)
+
+#* Como funciona:
+# 1D — necesitas 1 índice
+#arr[2]
+
+# 2D — necesitas 2 índices  
+#arr[1][2]  # fila 1, columna 2
+
+# 3D — necesitas 3 índices
+#arr[0][1][2]  # "capa" 0, fila 1, columna 2
+
+# 3 instantes de tiempo, cada uno con matriz 4x3
+Matriz3D = np.array([[[1,2,3],[4,5,6],[7,8,9],[10,11,12]],
+                  [[2,3,4],[5,6,7],[8,9,10],[11,12,13]],
+                  [[3,4,5],[6,7,8],[9,10,11],[12,13,14]]])
+
+print(Matriz3D.shape)  # (3, 4, 3) #(capas, filas, columnas)
+print(Matriz3D.ndim)   # 3
+
+# Para 1 de 4 # (bloques, capas, filas, columnas)
+
+print(Matriz3D.dtype) #int 64, enteros de 64bits
+
+print(Matriz3D.size) #32, 32 datos
+
+Matriz3D = np.array(Matriz3D, dtype = np.int16)
+print(Matriz3D)
+
+
+print(np.zeros((3, 2))) #* Matriz de 0, (3 Renglones,2 Columnas)
+
+print(np.ones((5,7))) #* Matriz de 1, (5 Renglones,7 Columnas)

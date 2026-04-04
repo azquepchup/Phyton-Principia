@@ -10,6 +10,8 @@ git commit    → guardar cambios
 git push      → subir a GitHub
 
 De esta forma actualizo:
+cd "Phyton Principia" # Para moverme a la carpteta
+
 git add .
 git commit -m "descripción breve"
 git push
