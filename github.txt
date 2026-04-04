@@ -1,0 +1,16 @@
+=======================================================================================================================
+Aprendi a usar algo de github y pude subir mis archivos 04/04/2026:
+Para guardar en un futuro mis actualizaciones ocupare los siguintes comandos:
+
+
+De esta creo un repositorio y agrego archivos:
+git init      → inicializar repositorio
+git add .     → preparar archivos
+git commit    → guardar cambios
+git push      → subir a GitHub
+
+De esta forma actualizo:
+git add .
+git commit -m "descripción breve"
+git push
+=======================================================================================================================
