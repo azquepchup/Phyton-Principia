@@ -47,12 +47,27 @@ y = x**2
 
 print(y)
 
+#Lo dejo en comentario para que no ejecute a cada rato y no llene la terminal
 
-import numpy as np
-import matplotlib.pyplot as plt
+#import numpy as np
+#import matplotlib.pyplot as plt
 
-x = np.linspace(0, 10, 100)
-y = x**2
+#x = np.linspace(0, 10, 100)
+#y = x**2
 
-plt.plot(x, y)
-plt.show()
+#plt.plot(x, y)
+#plt.show()
+
+print(sep)
+
+lista_Numeros = [[2, 3, 4],
+                 [3, 4, 5],
+                 [2, 5, 1],
+                 [5, 8,10]]
+
+arr_numeros = np.array(lista_Numeros)
+print(arr_numeros)
+
+print(arr_numeros.shape) #* Tamaño de mi arreglo (Matriz_mxn) (Columnas, Renglones)
+
+print(arr_numeros.ndim)
