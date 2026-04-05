@@ -206,7 +206,7 @@ print(np.hstack((np1, np2))) #Apilamiento horizontal
 enteros_2 = rg.integers(20, size=(10))
 print(enteros_2)
 
-print[0:6] #Me da los primeros 6 valores del arreglo
+print(enteros_2[0:6]) #Me da los primeros 6 valores del arreglo
 
 print(enteros_2[0:6:2]) #Que seleccione los primeros 6 valores del arreglo de dos en dos
 print(enteros_2[::2]) #Que inicie y termine desde que comienza, hasta que termina, pero de dos en dos
