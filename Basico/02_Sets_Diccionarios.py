@@ -26,7 +26,7 @@ print(my_set_lenguaje)
 
 print(sep)
 #=============================================================================================================
-my_newset = {"agua", "fuego", "gaseoso", "cojon de gabo izquierdo"}
+my_newset = {"agua", "fuego", "gaseoso", "gabo"}
 print(my_newset)
 print(type(my_newset))
 

@@ -23,19 +23,19 @@ print(c)
 Mi_texto="Hola mundo"
 print(Mi_texto)
 
-Caca= "Esto es una variable con un nombre poco apropiado"
-print(Caca)
-print(type(Caca))
+mango = "Esto es una variable"
+print(mango)
+print(type(mango))
 
 Mi_numero_favorito=3.14
 print(Mi_numero_favorito)
 print(type(Mi_numero_favorito))
 
 #Concatenacion
-print(Mi_numero_favorito, Caca)
+print(Mi_numero_favorito, mango)
 
 print("mi numero favorito es:", Mi_numero_favorito)
-print("Mi numero favorito es:", Caca)
+print("Mi numero favorito es:", mango)
 #====================================================================================================
 #Operadores aritmeticos
 print(6+4) #suma usual
@@ -51,7 +51,7 @@ print(11/3) #division usual, devuelve con el numero decimal
 
 print("hola"+" mundo") #suma de strings, se llama concatenacion
 print("hola"*3) #repite el string 3 veces
-print(Caca*3) #repite el string 3 veces
+print(mango*3) #repite el string 3 veces
 print(Mi_texto*3) #repite el string 3 veces
 print("Hola"+ str(3)) #concatenacion de string con numero, se convierte el numero a string con str() para poder concatenar
 print("Hola"+str(Mi_numero_favorito)) #concatenacion de string con numero, se convierte el numero a string con str() para poder concatenar
@@ -131,10 +131,10 @@ print("Hola" + ' mundo') #concatenacion de string con comillas dobles y string c
 print("Hola" + ' ' + "mundo" ) #Tambien se pueden concatenar Str multiples veces y combinar las comillas simples y dobles, se puede concatenar porque ambos son del tipo str
 
 #! Esto es muy pesado para el sistema
-print("esto es un texto de una variable" + Mi_texto + "y esto es otro texto de otra variable" + Caca) #concatenacion de string con variables, se puede concatenar porque ambos son del tipo str
+print("esto es un texto de una variable" + Mi_texto + "y esto es otro texto de otra variable" + mango) #concatenacion de string con variables, se puede concatenar porque ambos son del tipo str
 
 #! Entonces se pone:
-print(f"esto es un texto de una variable {Mi_texto} cacacaca") #concatenacion de string con variables, se puede concatenar porque ambos son del tipo str, se usa f antes de las comillas para indicar que se va a usar formato de string, y se usan llaves {} para indicar donde se va a insertar la variable
+print(f"esto es un texto de una variable {Mi_texto} mangogogo") #concatenacion de string con variables, se puede concatenar porque ambos son del tipo str, se usa f antes de las comillas para indicar que se va a usar formato de string, y se usan llaves {} para indicar donde se va a insertar la variable
 
 other_string="Hola"
 h,i,j,k = other_string #desempaquetado de string, se asigna cada letra del string a una variable diferente, en este caso h='H', i='o', j='l', k='a'

@@ -3,13 +3,14 @@ sep = ("=" * 123)
 
 
 
+
 normal_list = [1, 2, 3, 4, 5, 6, 7, 8] #lista normal
 print(normal_list)
 
 comprehension_list = [i for i in range(9)]
 print(comprehension_list)
 
-my_string = "Las patas de gabo"
+my_string = "Las manos de gabo"
 comprehension_list = [i for i in my_string]
 print(comprehension_list)
 
