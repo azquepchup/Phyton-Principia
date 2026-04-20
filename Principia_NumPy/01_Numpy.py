@@ -16,7 +16,7 @@ arr1 = np.array([1, 2, 3]) #arreglo 1
 arr2 = np.array([4, 5, 6]) #arreglo 2
 
 print(arr1 + arr2) #Suma los arreglos (suma de matrices) #? Anteriormente tenia la duda de como podria sumar vectores y ya estaba pensando en un codigo, pero con esto es super facil
-print(arr1 * arr2) #Multiplicación de acuerdo a la posicionm #? No estoy tan seguro que realmente sea multiplicación de matrices, deberia de comprobarlo para un 3x3 y tal vez asi podria saber si efectivamente es
+print(arr1 * arr2) #Multiplicación de acuerdo a la posicion #? No estoy tan seguro que realmente sea multiplicación de matrices, deberia de comprobarlo para un 3x3 y tal vez asi podria saber si efectivamente es
 
 
 A = np.array([[1, 2],
