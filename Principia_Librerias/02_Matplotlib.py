@@ -126,7 +126,7 @@ y_3 = np.linspace(0.1, 5, 100)
 #label = nombre de la grafica
 #Para que se pongo los nombres debo ejecutar plt.legend()
 
-plt.plot(x, y_exp, **line_style, color = "green", label ="exp(x)") #Descomprimimos aqui con ** 
+plt.plot(x, y_exp, **line_style, color = "black", label ="exp(x)") #Descomprimimos aqui con ** 
 
 plt.plot(x, y_log, **line_style, color = "red", label ="log10(x)") #Podemos cotar una cosa especifica del dict de la linea y ponerla como un argumento en especifico.
 

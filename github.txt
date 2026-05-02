@@ -11,10 +11,19 @@ git push      → subir a GitHub
 
 De esta forma actualizo:
 cd "Phyton Principia" # Para moverme a la carpteta
-
+cd ~/VS\ CODE/Python-Principia
 git add .
 git commit -m "descripción breve"
 git push
 
 #Modificación de prueba
 =======================================================================================================================
+
+
+
+En latex
+cd ~/VS\ CODE/LaTeX
+
+git add .
+git commit -m "..."
+git push
